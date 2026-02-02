@@ -1,0 +1,70 @@
+# Disaster Context Graph RAG
+
+## Byte-Level Ignores (Heavy Data & Outputs)
+disaster_ai_sp26/
+*.parquet
+*.csv
+*.xlsx
+*.json
+!schema.yaml
+!config.json
+
+## Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+## Environments
+.env
+.venv
+env/
+venv/
+ENV/
+*.env
+
+## IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+## Jupyter
+.ipynb_checkpoints/
+
+## Neo4j Data (local instance)
+neo4j_data/
+
+## Model Weights & Cached Embeddings
+*.pt
+*.bin
+*.onnx
+embeddings_cache/
+
+## OS
+.DS_Store
+Thumbs.db
+
+## Logs
+*.log
+logs/
+
+## Temporary analysis scripts (keep only core)
+analyze_data.py
