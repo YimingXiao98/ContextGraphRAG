@@ -36,15 +36,6 @@ python main.py "Where are the shelters?"
 └── Guides/              # Documentation
 ```
 
-## Team
-
-| Member    | Role               | Focus Area                     |
-|-----------|--------------------|--------------------------------|
-| Lead      | Orchestrator       | System Integration, SQL Agent  |
-| Ankit     | Research Scientist | Feature Resolver, Learned Edges|
-| Sahil     | MS Student         | Schema Graph, Query Library    |
-| Christian | MS Student         | Evidence Graph, Data Ingestion |
-
 ## Environment
 
 ```bash
